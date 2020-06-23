@@ -35,6 +35,9 @@
 	box-shadow: 16px 16px 56px  rgb(61,75,41); /*sombra del registro*/
 	background: rgba(0, 0, 0, 0.7); 	
 	margin-top:100px;
+}h4{
+	color:#9A8B56;	
+
 }.card-body{
 	background:rgb(61,75,41);
 	color:black;
