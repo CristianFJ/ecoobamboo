@@ -49,26 +49,26 @@
                     <div class="modo-mostrar" id="logearse">
                         <div class="login-contenido">
                             <div class="formulario">
-                                <form>
+                                <form action="control.php" method="POST">
                                     <ul>
                                         <li>
                                             <span>
                                                 E-mail:
                                             </span>
-                                            <input placeholder="E-mail" type="text"/>
+                                            <input placeholder="E-mail" type="text" name="usuario" />
                                         </li>
                                     </ul>
+                                     <input placeholder="Contraseña" type="password" name="contraseña" />
+                                     <div class="formulario confirmar">
+                                        <input id="logeado" type="checkbox"/>
+                                        <label for="logeado">
+                                            Mantener la sesión activa
+                                        </label>
+                                    </div>
+                                    <div class="formulario login-boton">
+                                      <input type="submit" class="enviar" name="enviar" value="Iniciar Sesión"/>
+                                    </div>
                                 </form>
-                                <input placeholder="Contraseña" type="password"/>
-                            </div>
-                            <div class="formulario confirmar">
-                                <input id="logeado" type="checkbox"/>
-                                <label for="logeado">
-                                    Mantener la sesión activa
-                                </label>
-                            </div>
-                            <div class="formulario login-boton">
-                              <a  href="index.php" class="enviar">Iniciar Sesión</a>
                             </div>
                         </div>
                         <div class="login-footer">
