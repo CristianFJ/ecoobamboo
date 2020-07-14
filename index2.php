@@ -32,8 +32,8 @@
                         <div id="menu" class="collapse navbar-collapse">
                             <ul class="navbar-nav">
                                 <li class="nav-item active"><a class="nav-link" href="#">PRODUCTOS</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">PROMOCIONES</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">INFORMACIÓN</a></li>
+                                <li class="nav-item"><a class="nav-link" href="promocion.php">PROMOCIONES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=573219805156&text=Hola%2c%20me%20interesan%20tus%20productos.Por%20favor%20puedes%20brindarme%20m%c3%a1s%20informaci%c3%b3n&source=&data=">INFORMACIÓN</a></li>
                             </ul>
                         <form action="search.php" class="form-inline">
                             <input class="form-control" type="search" name="buscar" placeholder="Buscar">
