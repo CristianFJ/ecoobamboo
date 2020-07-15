@@ -8,7 +8,7 @@
 .container-fluid{
 	background: rgb(61,75,41);
 	width: 100%;
-	height: 40%;
+	height:750px;
 }
 .card{
 	text-align: center;
@@ -88,9 +88,15 @@ p,address{
 	padding: 0;
 	border-radius: 50%;
 	transform: scale(0.99);
+}.row{
+
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }#CR{
-	width:100%;
-	height:150px;
+	width:200px;
+	height:200px;
 	justify-content: center;
 	text-align: center;
 	padding: 0px;
@@ -102,11 +108,13 @@ p,address{
 	justify-content: left;
 	padding-bottom: 10px;
 }#r{
+	padding-top:100px;
 	color:rgb(165,146,89);
 	text-align: center;
 	width:100%;
 	height:100%;
 }#l{
+	padding-top:100px;
 	color:rgb(165,146,89);
 	text-align: center;
 	width:100%;

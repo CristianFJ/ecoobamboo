@@ -33,29 +33,44 @@
 	padding: 0px;
 	padding-bottom: 10px;
 }.container-fluid{
-	background: rgb(61,75,41);
-	width: 100%;
-	height: 40%;
+  background: rgb(61,75,41);
+  width: 100%;
+  height:750px;
+}.row{
+
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}#CR{
+  width:200px;
+  height:200px;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 10px;
 }#W,#F,#I{
-	width: auto;
-	display: flex;
-	text-align: center;
-	justify-content: left;
-	padding-bottom: 10px;
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  padding-bottom: 10px;
 }#r{
-	color:rgb(165,146,89);
-	text-align: center;
-	width:100%;
-	height:100%;
+  padding-top:100px;
+  color:rgb(165,146,89);
+  text-align: center;
+  width:100%;
+  height:100%;
 }#l{
-	color:rgb(165,146,89);
-	text-align: center;
-	width:100%;
-	height:100%;
+  padding-top:100px;
+  color:rgb(165,146,89);
+  text-align: center;
+  width:100%;
+  height:100%;
 }#c{
-	text-align: center;
-	width:100% ;
-	height:200px;
+  text-align: center;
+  width:100% ;
+  height:200px;
 }a{
 	color:rgb(165,146,89);
 }.container-portada{
@@ -83,7 +98,7 @@
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
-	overflow: hidden;
+
 }.login-encabezado {
   width: 100%;
   height: 60px;
@@ -161,6 +176,8 @@
   padding: 19px 15px 30px;
 }.login .confirmar * {
   cursor: pointer;
+}#registrarse .enviar{
+    cursor: pointer;
 }.login label {
   -webkit-user-select: none;
   color: #fff;
@@ -211,10 +228,10 @@
   list-style:none;
   position:relative;  
 }.login span {
- position: absolute;
+position: absolute;
 color:transparent;
- opacity:1;
- top: 40px;
+opacity:1;
+top: 40px;
 left: 50px;
 font-size: 0.7rem;
 -webkit-transition: .333s ease top, .333s ease opacity;
@@ -222,5 +239,8 @@ transition: .333s ease top, .333s ease opacity;
 }.js-hide-label span {
     opacity: 0; 
     top: 1.5em;
+}.login-contenedor{
+    display: flex;
+    justify-content: left;
 }
 
