@@ -32,9 +32,10 @@
                         <div id="menu" class="collapse navbar-collapse">
                             <ul class="navbar-nav">
                                 <li class="nav-item active"><a class="nav-link" href="#">PRODUCTOS</a></li>
-                                <li class="nav-item"><a class="nav-link" href="promociones.php">PROMOCIONES</a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=573219805156&text=Hola%2c%20me%20interesan%20tus%20productos.Por%20favor%20puedes%20brindarme%20m%c3%a1s%20informaci%c3%b3n&source=&data=">INFORMACIÓN</a></li>
+                                <li class="nav-item"><a class="nav-link" href="promocion.php">PROMOCIONES</a></li>
+                                <li class="nav-item"><a class="nav-link" href=href="https://www.facebook.com/pg/ecoobamboo/about/?ref=page_internal">INFORMACIÓN</a></li>
                             </ul>
+                
                         <form action="search.php" class="form-inline">
                             <input class="form-control" type="search" name="buscar" placeholder="Buscar">
                             <a href="#" class="btn btn-success">Buscar</a>
@@ -189,7 +190,7 @@
                     <div class="col-xs-4 col-lg-4" id="c">
                         <div class="row">
                             <div class="col-12" id="CR">
-                                <img  src="icon/logot.png" width="100%" height="100%">
+                                <img  src="icon/logot.png" width="50%" height="80%">
                                 </img>
                             </div>
                         </div>
@@ -216,10 +217,14 @@
                     </div>
                     <div class="col-xs-4 col-lg-4" id="r">
                         <address>
-                            <br>
+                             <br>
                                 Designed by :
+                                 <br>
+                                 <br>
                                 Cristian Osorio
-                                <br>
+                                 <br>
+                                Daniel Alvarez
+                            <br>
                                     E-mail :   
                                 cstiven.osorio@udea.edu.co
                                 </br>

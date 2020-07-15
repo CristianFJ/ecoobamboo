@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE doctype html>
 <html lang="en">
     <head>
@@ -49,26 +51,30 @@
                     <div class="modo-mostrar" id="logearse">
                         <div class="login-contenido">
                             <div class="formulario">
-                                <form action="control.php" method="POST">
+                                <form action="login.php" method="POST">
                                     <ul>
                                         <li>
                                             <span>
                                                 E-mail:
                                             </span>
-                                            <input placeholder="E-mail" type="text" name="usuario" />
+                                            <input placeholder="E-mail" type="text" name="email" />
                                         </li>
                                     </ul>
-                                     <input placeholder="Contraseña" type="password" name="contraseña" />
-                                     <div class="formulario confirmar">
+                                     <input placeholder="Contraseña" type="password" name="password" />
+                                     <!--<div class="formulario confirmar">
                                         <input id="logeado" type="checkbox"/>
                                         <label for="logeado">
                                             Mantener la sesión activa
                                         </label>
-                                    </div>
+                                    </div>-->
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
                                     <div class="formulario login-boton">
                                       <input type="submit" class="enviar" name="enviar" value="Iniciar Sesión"/>
                                     </div>
-                                </form>
+                         		</form>
                             </div>
                         </div>
                         <div class="login-footer">
@@ -77,32 +83,30 @@
                                 Ingresar como invitado
                             </a>
                         </div>
-                    </div>
+                    </div> 
                     <!-- registrarse -->
                     <div class="esconder" id="registrarse">
                         <div class="login-contenido">
+                           
                             <div class="formulario">
-                                <form>
+                                 <form action="signup.php" method="POST">
                                     <ul>
                                         <li>
                                             <span for="name">
                                                 Escribe tu correo electrónico
                                             </span>
-                                            <input placeholder="E-mail" type="text"/>
+                                            <input name="email" placeholder="E-mail" type="text"/>
                                         </li>
                                     </ul>
-                                </form>
-                                <input placeholder="Contraseña" type="password"/>
+                                	<input name="password" placeholder="Contraseña" type="password"/>
+                                	<input name="confirm_password" placeholder="Confirmar Contraseña" type="password"/>
+                                	 </form>
                             </div>
-                            <div class="formulario confirmar">
-                                <input id="condiciones" type="checkbox"/>
-                                <label for="condiciones">
-                                    He leído y acepto las condiciones de uso
-                                </label>
-                            </div>
+                                    <br>
                             <div class="formulario login-boton">
-                                <a  href="index.php" class="enviar">Crear cuenta</a>
+                               <input type="submit" class="enviar" name="enviar" value="Crear Cuenta"/>
                             </div>
+                            
                             <hr/>
                             <a class="clave-olvidada" href="index.php">
                                 Ingresar como invitado
@@ -161,10 +165,14 @@
                         <address>
                             <br>
                                 Designed by :
-                                Cristian Osorio
                                 <br>
+                                 <br>
+                                Cristian Osorio
+                                 <br>
+                                Daniel Alvarez
+                            <br>
                                     E-mail :   
-                                cstiven.osorio@udea.edu.co
+                            cstiven.osorio@udea.edu.co
                                 </br>
                             </br>
                         </address>
