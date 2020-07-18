@@ -1,5 +1,5 @@
 <?php 
-
+require_once"./conexion2.php";
 include("conexion.php");
 
 if(isset($_POST['enviar2'])){
@@ -36,5 +36,47 @@ if(isset($_POST['enviar2'])){
             <h3 class="bad">Completa los campos!</h3>
         <?php 
         }
-}		
+}	
+verificacion();
+function verificacion(){
+    $mysql = conexionSQL();
+
+    $qa =("SELECT * FROM datos WHERE User1='".$_POST['usuario']."' AND pass0 ='".$_POST['contrasena']."'");
+    $Admins = $mysql->query($qa);
+
+    if(mysqli_num_rows($Admins)!=0){
+    if(mysqli_num_rows($Admins)!=0){
+        session_start();
+            $_SESSION['userad']= $_POST['usuario'];
+            $_SESSION['authadm']= true;
+    }else{
+        print("no hay usuarios");
+    }
+
+    if(isset($_SESSION['authadm']) && ($_SESSION['authadm']==true)){
+        print("existe");
+        header("Location:index.php");
+        }else{
+            print("no existe");
+            header("Location:inicioS.php?error=true");
+        }
+    }else{
+
+
+
+    if(isset($_SESSION['authuse']) && ($_SESSION['authuse']==true)){
+            print("existe");
+            header("Location:index.php");
+            }else{
+                print("no existe");
+                header("Location:inicioS.php?error=true");
+            }
+        }
+
+}
+session_start();
+    print($_POST['usuario']."<br");
+    $_SESSION['user'] = $_POST['usuario'];
+    header("Location:index.php")                                
+		
 ?>
