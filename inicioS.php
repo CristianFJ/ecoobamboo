@@ -52,7 +52,11 @@
                         <div class="login-contenido">
                             <div class="formulario">
                                 <form action="control_sesion.php" method="POST">
-                                
+                                    <?php
+                                        if(isset($_GET['error']) && $_GET['error']==true ){
+                                            print("<br><p>Error: Nombre de usuario o contraseña invalido</p>");
+                                        }
+                                    ?>
                                     <ul>
                                         <li>
                                             <span>
