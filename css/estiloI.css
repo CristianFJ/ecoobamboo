@@ -132,4 +132,7 @@ p,address{
 	background-image:url(../img/panda.jpg);
 	background-size:100%;
 	
-}*/
+}.pagination{
+  background: red;
+}
+

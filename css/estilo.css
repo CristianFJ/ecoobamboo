@@ -244,7 +244,4 @@ transition: .333s ease top, .333s ease opacity;
 }.login-contenedor{
     display: flex;
     justify-content: left;
-}.pagination{
-  background: red;
 }
-
