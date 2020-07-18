@@ -51,6 +51,7 @@
                     </p>
             </div>
 
+           
             <div class="container-fluid0">
                 <div class="row">
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -73,7 +74,18 @@
                             <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
-                    <div class="col-xs-5 col-md-4 col-lg-3">
+                     <div class="col-xs-5 col-md-4 col-lg-3">
+                    
+                        <div class="card" >
+                        <img class="card-img-top" src="img/vasos.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Vasos</h5>
+                                <h6 class="card-title2">20,000$</h6>
+                            </div>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                   <div class="col-xs-5 col-md-4 col-lg-2">
                         <div class="card" >
                         <img class="card-img-top" src="img/copitos.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -83,19 +95,10 @@
                             <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
+                    
                     <div class="col-xs-5 col-md-4 col-lg-2">
                         <div class="card" >
-                        <img class="card-img-top" src="img/vasos.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Vasos</h5>
-                                <h6 class="card-title2">20,000$</h6>
-                            </div>
-                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-5 col-md-4 col-lg-2">
-                        <div class="card" >
-                        <img class="card-img-top" src="img/maceta.jpeg" alt="Card image cap">
+                        <img class="card-img-top" src="img/maceta.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Maceta</h5>
                                 <h6 class="card-title2">12,000$</h6>
@@ -111,11 +114,12 @@
               <ul class="pagination">
                 <li id="verp" class="page-item"><a class="page-link" href="index.php">Previous</a></li>
                 <li id="verp" class="page-item"><a class="page-link" href="index.php">1</a></li>
-                <li id="verp" class="page-item"><a class="page-link" href="index2.php">2</a></li>
+                <li id="verp" class="page-item"><a class="page-link" href="index2.php">(2)</a></li>
                 <li id="verp" class="page-item"><a class="page-link" href="index.php">Next</a></li>
             </ul>
         </nav>
      </div>
+   
    
     </div>
            <div class="container-fluid">

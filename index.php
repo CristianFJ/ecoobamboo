@@ -161,7 +161,7 @@ include("conexion.php");
             <nav aria-label="Page navigation example">
               <ul class="pagination">
                 <li class="page-item"><a class="page-link" href="index2.php">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="index.php"></a></li>
+                <li class="page-item"><a class="page-link" href="index.php">(1)</a></li>
                 <li class="page-item"><a class="page-link" href="index2.php">2</a></li>
                 <li class="page-item"><a class="page-link" href="Index2.php">Next</a></li>
             </ul>
