@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); 
+include("conexion.php");
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -36,11 +38,8 @@
                                 <li class="nav-item"><a class="nav-link" href=href="https://www.facebook.com/pg/ecoobamboo/about/?ref=page_internal">INFORMACIÓN</a></li>
                             </ul>
                 
-                        <form action="search.php" class="form-inline">
-                            <input class="form-control" type="search" name="buscar" placeholder="Buscar">
-                            <a href="#" class="btn btn-success">Buscar</a>
-                        </form>
-                        <a id="ver" href="inicioS.php" class="btn btn-primary">Salir</a>
+                        
+                        <a id="ver" href="salir.php" class="btn btn-primary">Salir</a>
                         </div>
                     </nav>
                 </div>
@@ -48,7 +47,7 @@
         </header>   
          <div class="row">
              <div id="texto"class="col-xs-12 col-md-10 col-lg-9">
-                   <h4 id="bienvenido">Bievenido <?php print($_SESSION['user']); ?>!</h4>
+                   <h4 id="bienvenido"> Bienvenido <?php print($_POST['usuario2'] ); ?>!</h4>
                    <p>
                    Ecoobambo es una tienda de productos ecológicos. Te brindamos alternativas para un estilo de vida sostenible y más responsable con el planeta.
                    </p>
@@ -63,7 +62,7 @@
                                 <h5 class="card-title">Seda Dental</h5>
                                 <h6 class="card-title2">15,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -73,7 +72,7 @@
                                 <h5 class="card-title">Peine de Bambú pequeño</h5>
                                 <h6 class="card-title2">16,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-3">
@@ -83,7 +82,7 @@
                                 <h5 class="card-title">Peine de Bambú grande</h5>
                                 <h6 class="card-title2">25,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -93,7 +92,7 @@
                                 <h5 class="card-title">Peine de Bambú mediano</h5>
                                 <h6 class="card-title2">20,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -103,7 +102,7 @@
                                 <h5 class="card-title">Travel Case de Bambú</h5>
                                 <h6 class="card-title2">12,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 
@@ -114,7 +113,7 @@
                                 <h5 class="card-title">Carbón Activado</h5>
                                 <h6 class="card-title2">9,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -124,7 +123,7 @@
                                 <h5 class="card-title">Pitillos en acero Inoxidable</h5>
                                 <h6 class="card-title2">14,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-3">
@@ -134,7 +133,7 @@
                                 <h5 class="card-title">Cepillos de dientes de bambú</h5>
                                 <h6 class="card-title2">9,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -144,7 +143,7 @@
                                 <h5 class="card-title">Cubiertos de Bambú</h5>
                                 <h6 class="card-title2">16,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -154,7 +153,7 @@
                                 <h5 class="card-title">Lápices Sprout</h5>
                                 <h6 class="card-title2">4,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>

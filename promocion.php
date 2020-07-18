@@ -33,13 +33,10 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a class="nav-link" href="index.php">PRODUCTOS</a></li>
                                 <li class="nav-item active"><a class="nav-link" href="promocion.php">PROMOCIONES</a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=573219805156&text=Hola%2c%20me%20interesan%20tus%20productos.Por%20favor%20puedes%20brindarme%20m%c3%a1s%20informaci%c3%b3n&source=&data=">INFORMACIÓN</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/pg/ecoobamboo/about/?ref=page_internal">INFORMACIÓN</a></li>
                             </ul>
-                        <form action="search.php" class="form-inline">
-                            <input class="form-control" type="search" name="buscar" placeholder="Buscar">
-                            <a href="#" class="btn btn-success">Buscar</a>
-                        </form>
-                        <a id="ver" href="inicioS.php" class="btn btn-primary">Salir</a>
+                       
+                        <a id="ver" href="salir.php" class="btn btn-primary">Salir</a>
                         </div>
                     </nav>
                 </div>

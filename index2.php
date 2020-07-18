@@ -36,11 +36,7 @@
                                 <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/pg/ecoobamboo/about/?ref=page_internal">INFORMACIÓN</a></li>
                             </ul>
                      
-                        <form action="search.php" class="form-inline">
-                            <input class="form-control" type="search" name="buscar" placeholder="Buscar">
-                            <a href="#" class="btn btn-success">Buscar</a>
-                        </form>
-                        <a id="ver" href="inicioS.php" class="btn btn-primary">Salir</a>
+                        <a id="ver" href="salir.php" class="btn btn-primary">Salir</a>
                         </div>
                     </nav>
                 </div>
@@ -48,6 +44,8 @@
         </header>   
          <div class="row">
              <div id="texto"class="col-xs-12 col-md-10 col-lg-9">
+             	<h4 id="bienvenido">Bienvenido <?php print($_POST['usuario2'] ); ?>!</h4>
+                       
                    <p>
                    Ecoobambo es una tienda de productos ecológicos. Te brindamos alternativas para un estilo de vida sostenible y más responsable con el planeta.
                     </p>
@@ -62,7 +60,7 @@
                                 <h5 class="card-title">bolsax100</h5>
                                 <h6 class="card-title2">5,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -72,7 +70,7 @@
                                 <h5 class="card-title">Cuadernos</h5>
                                 <h6 class="card-title2">8,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-3">
@@ -82,7 +80,7 @@
                                 <h5 class="card-title">Copitos con palito de bambú</h5>
                                 <h6 class="card-title2">6,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
@@ -92,17 +90,17 @@
                                 <h5 class="card-title">Vasos</h5>
                                 <h6 class="card-title2">20,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="col-xs-5 col-md-4 col-lg-2">
                         <div class="card" >
-                        <img class="card-img-top" src="img/travel.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/maceta.jpeg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Maceta</h5>
                                 <h6 class="card-title2">12,000$</h6>
                             </div>
-                            <a id="ver" href="#" class="btn btn-primary">Ver más</a>
+                            <a id="ver" href="https://api.whatsapp.com/send?phone=573219805156&text=Quiero%20comprar%20este%20producto&source=&data=" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 

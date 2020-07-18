@@ -1,6 +1,8 @@
 
 *{ <link href="https://allfont.es/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
-
+  font-size:medium;
+  text-align: center;
+  color: white;
 	font-family: 'montserrat';		
 }p,address{
 	justify-content: center;
@@ -242,5 +244,7 @@ transition: .333s ease top, .333s ease opacity;
 }.login-contenedor{
     display: flex;
     justify-content: left;
+}.pagination{
+  background: red;
 }
 
