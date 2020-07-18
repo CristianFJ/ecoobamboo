@@ -35,7 +35,7 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item active"><a class="nav-link" href="#">PRODUCTOS</a></li>
                                 <li class="nav-item"><a class="nav-link" href="promocion.php">PROMOCIONES</a></li>
-                                <li class="nav-item"><a class="nav-link" href=href="https://www.facebook.com/pg/ecoobamboo/about/?ref=page_internal">INFORMACIÓN</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/pg/ecoobamboo/about/?ref=page_internal">INFORMACIÓN</a></li>
                             </ul>
                 
                         
