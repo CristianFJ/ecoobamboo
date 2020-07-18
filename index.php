@@ -47,7 +47,7 @@ include("conexion.php");
         </header>   
          <div class="row">
              <div id="texto"class="col-xs-12 col-md-10 col-lg-9">
-                   <h4 id="bienvenido"> Bienvenido <?php print($_POST['usuario2'] ); ?>!</h4>
+                   <h4 id="bienvenido"> Bienvenido <?php print($_POST['user'] ); ?>!</h4>
                    <p>
                    Ecoobambo es una tienda de productos ecológicos. Te brindamos alternativas para un estilo de vida sostenible y más responsable con el planeta.
                    </p>
