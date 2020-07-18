@@ -73,10 +73,6 @@ function verificacion(){
             }
         }
 
-}
-session_start();
-    print($_POST['usuario']."<br");
-    $_SESSION['user'] = $_POST['usuario'];
-    header("Location:index.php")                                
+}                              
 		
 ?>
