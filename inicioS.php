@@ -84,7 +84,7 @@
                         </div>
                         <div class="login-footer">
                             <hr/>
-                            <a class="clave-olvidada" href="index.php">
+                            <a class="clave-olvidada" href="control.php">
                                 Ingresar como invitado
                             </a>
                         </div>
@@ -118,7 +118,7 @@
                             <?php
                                    include("control_sesion.php");
                                 ?>
-                            <a class="clave-olvidada" href="index.php">
+                            <a class="clave-olvidada" href="control.php"  name="usuario" value="Null">
                                 Ingresar como invitado
                             </a>
                         </div>

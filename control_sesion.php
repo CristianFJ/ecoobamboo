@@ -47,7 +47,7 @@ function verificacion(){
     if(mysqli_num_rows($Admins)!=0){
     if(mysqli_num_rows($Admins)!=0){
         session_start();
-            $_SESSION['userad']= $_POST['usuario'];
+            $_SESSION['user']= $_POST['usuario'];
             $_SESSION['authadm']= true;
     }else{
         print("no hay usuarios");
