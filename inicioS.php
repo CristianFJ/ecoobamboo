@@ -51,16 +51,17 @@
                     <div class="modo-mostrar" id="logearse">
                         <div class="login-contenido">
                             <div class="formulario">
-                                <form action="login.php" method="POST">
+                                <form action="control_sesion.php" method="POST">
+                                
                                     <ul>
                                         <li>
                                             <span>
                                                 E-mail:
                                             </span>
-                                            <input placeholder="E-mail" type="text" name="email" />
+                                            <input placeholder="E-mail" type="text" name="usuario" />
                                         </li>
                                     </ul>
-                                     <input placeholder="Contraseña" type="password" name="password" />
+                                     <input placeholder="Contraseña" type="password" name="contrasena" />
                                      <!--<div class="formulario confirmar">
                                         <input id="logeado" type="checkbox"/>
                                         <label for="logeado">
@@ -89,25 +90,30 @@
                         <div class="login-contenido">
                            
                             <div class="formulario">
-                                 <form action="signup.php" method="POST">
+                                 <form method="POST">
                                     <ul>
                                         <li>
                                             <span for="name">
                                                 Escribe tu correo electrónico
                                             </span>
-                                            <input name="email" placeholder="E-mail" type="text"/>
+                                            <input name="usuario2" placeholder="E-mail" type="text"/>
                                         </li>
                                     </ul>
-                                	<input name="password" placeholder="Contraseña" type="password"/>
-                                	<input name="confirm_password" placeholder="Confirmar Contraseña" type="password"/>
-                                	 </form>
+                                	<input name="contra2" placeholder="Contraseña" type="password"/>
+                                	<input name="contra3" placeholder="Confirmar Contraseña" type="password"/>
+
                             </div>
-                                    <br>
-                            <div class="formulario login-boton">
-                               <input type="submit" class="enviar" name="enviar" value="Crear Cuenta"/>
-                            </div>
-                            
+                             <br>
+                                        <div class="formulario login-boton">
+                                           <input type="submit" class="enviar" name="enviar2" value="Crear Cuenta"/>
+
+                                        </div>
+                                </form>
+
                             <hr/>
+                            <?php
+                                   include("control_sesion.php");
+                                ?>
                             <a class="clave-olvidada" href="index.php">
                                 Ingresar como invitado
                             </a>
