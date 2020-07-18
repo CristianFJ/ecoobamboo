@@ -4,6 +4,7 @@ include("conexion.php");
 
 if(isset($_POST['enviar2'])){
     if((strlen($_POST['usuario2'])) >=1 && (strlen($_POST['contra2'])) >=1 &&(strlen($_POST['contra3'])) >=1){
+        if(($_POST['contra2'])==(($_POST['contra3']))){
         $usuario2= trim($_POST['usuario2']);
         $contra2= trim($_POST['contra2']);
         $contra3= trim($_POST['contra3']);
@@ -18,6 +19,11 @@ if(isset($_POST['enviar2'])){
              ?>
             <h3 class="bad">¡Ups!</h3>
             <?php 
+        }
+        }else{
+             ?>
+            <h3 class="bad">Las contraseñas no coinciden!</h3>
+        <?php   
         }
     }else{
         ?>
